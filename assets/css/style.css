@@ -93,7 +93,7 @@ hr.hr{
 .content-col-left{
  position: relative;
  float: left;
- width: 60%; 
+ width: 50%; 
 }
 
 .content-col-right{
@@ -195,6 +195,20 @@ hr.hr{
   transition: ease .1s;
 }
 
+.btn-hero {
+ margin-top: 20px;
+ padding: 12px 45px;
+ border-radius: 5px;
+ font-size: 18px;
+ background: white;
+}
+
+.btn-hero:hover, .btn-hero:focus{
+  background: #d1e1ff;
+  transition: ease .4s;
+  color: #24437d;
+}
+
 
 /*----------------------------------------
 Navigation
@@ -271,17 +285,17 @@ header .navbar-default li.connect-links{
   line-height: 17px;
   padding: 12px 35px;
   margin-right: 0;
-  color: #8e6cff!important;
+  color: #5c739e!important;
   background-color:#fff;
   box-shadow: 0 10px 15px 2px rgba(61, 61, 61, .1);
-  border-radius: 25px;
+  border-radius: 5px;
   display: inline-block;
   transition: all 0.2s linear;
 }
 
 header .navbar-default li a.btn-login:hover, .navbar-default li a.btn-login:focus{
   background-color:#fff;
-  color:#8e6cff;
+  color:#5c739e;
   box-shadow: 0 5px 25px 1px rgba(61, 61, 61, .2);
 }
 .affix {
@@ -304,7 +318,7 @@ header .navbar-default li a.btn-login:hover, .navbar-default li a.btn-login:focu
 }
 .affix li a.btn-login {
   line-height: 17px;
-  color: #8e6cff;
+  color: #5c739e;
 }
  .navbar-default li ul{
     display: block !important;
@@ -562,12 +576,14 @@ Blocks
  box-shadow: 0 10px 35px 2px rgba(61, 61, 61, .20);
  border-radius: 5px;
  background-color: white;
+ position: relative;
 }
 .feature-block img{
   height: 50px;
   width: auto;
- 
 }
+
+  
 
 .feature-img {
   height: 60px !important;
