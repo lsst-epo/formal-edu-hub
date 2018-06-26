@@ -46,7 +46,8 @@ h2{
 h3 {
   color: #4A4A4A;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 27px;
+  padding-top: 20px;
 }
 h4{
   font-size: 20px;
@@ -83,6 +84,11 @@ hr.hr{
   margin: 50px 0;
   opacity: 0.75;
 }
+
+td, th {
+  padding: 17px;
+  border: 1px solid grey;
+}
 .row-centered{
   text-align: center;
 }
@@ -91,6 +97,11 @@ hr.hr{
   float: none;
   text-align: center;
 }
+
+.teacher-detail{
+  padding-left: 15px;
+}
+
 .color-white {
   color: #fff;
 }
@@ -427,6 +438,11 @@ Hero
   font-weight: 900;
   color: #fff;
   line-height: 60px;
+
+}
+
+.section-hero-content .hero-text h2{
+  color: #d6d6d6;
 
 }
 .hero-text p{
