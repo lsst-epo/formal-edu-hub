@@ -44,10 +44,11 @@ h2{
   font-size: 32px;
 }
 h3 {
-  color: #4A4A4A;
+  color: #272727;
   font-weight: 500;
-  font-size: 27px;
+  font-size: 29px;
   padding-top: 20px;
+  margin-bottom: 20px;
 }
 h4{
   font-size: 20px;
@@ -63,15 +64,22 @@ a{
   transition: all 0.4s ease;
 }
 a:hover {
-  color: #1968e0;
+  color: #9caeca;
   text-decoration: none;
 }
 ul, ol{
   margin: 0;
   padding: 0;
 }
+
+
 ul{
   list-style: none;
+  font-weight: 300;
+}
+
+li {
+  margin-bottom:15px; 
 }
 img{
   max-width: 100%;
@@ -87,7 +95,7 @@ hr.hr{
 
 td, th {
   padding: 17px;
-  border: 1px solid grey;
+  border: 1px solid #d8d8d8;
 }
 .row-centered{
   text-align: center;
@@ -100,6 +108,10 @@ td, th {
 
 .teacher-detail{
   padding-left: 15px;
+}
+
+.t-block {
+  margin-bottom: 50px;
 }
 
 .color-white {
@@ -119,12 +131,17 @@ td, th {
  float: right;
  width: 60%; 
 }
+
+.content-right {
+  float: right;
+}
+
 .bg-color-1 {
     background: #5c739e;
 }
 
 .bg-color-2 {
-    background: #253450;
+    background: #647dad;
     /*background-image: url('../images/bg_ex1.png');*/
     /*background-size: auto;*/
     /*background-position: center;*/
@@ -536,7 +553,7 @@ About
 .icon-block i{
   font-size: 40px;
   line-height: 45px;
-  color:#8767ff;
+  color:#5c739e;
 }
 
 #about-app{
@@ -713,7 +730,7 @@ border-left:none;
 }
 .tab-box .tab-content a{
       font-size: 16px;
-    color: #8767ff;  
+    color: #5c739e;  
 }
 .tab-box .tab-content a i{
      position: relative;
@@ -1341,14 +1358,14 @@ Content
   padding: 20px 30px;
 }
 .quote-blog blockquote span{
-  color:#8767ff;
+  color:#5c739e;
   font-weight: 600;
 }
 .quote-blog blockquote i{
   font-family: 'ElegantIcons';
   content: "\7b";
   position: relative;
-  color: #8767ff;
+  color: #5c739e;
   float:left;
   font-size: 150px;
 
