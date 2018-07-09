@@ -146,6 +146,11 @@
     .tab-box .nav-tabs li {
         display: block;
     }
+    #hero-image {
+        max-height: : 70%;
+        margin-top: 0px;
+    }
+
 }
 
 
@@ -316,6 +321,11 @@
       #features {
         padding-bottom: 80px;
     }
+    #hero-image {
+        max-width: 100%;
+        margin-top: 130px;
+    }
+ 
   
 
 }
@@ -348,9 +358,6 @@
 
 @media only screen and (min-width: 1920px) {
 
-    .section-hero{
-          padding-top:200px;  
-    }
     .content-col-image {
         float: left;
         right: 0;
@@ -367,7 +374,9 @@
         top: -100px;
     }
 
-
+    #hero-image {
+        max-width: 89%;
+    }
 
     .testimonial-block .col-image-inner {
         left: -50px;

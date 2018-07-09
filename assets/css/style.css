@@ -299,7 +299,7 @@ Navigation
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active:hover>a{
   background-color: transparent;
-  color: #eee;
+  color: #bdbdbd;
 }
 .navbar-default .navbar-collapse .navbar-nav > li:first-child{
   margin-left: 0;
@@ -311,7 +311,7 @@ Navigation
   color: white;
 }
 .navbar-default .navbar-nav>li>a.active-link {
-  color: #fff;
+  color: #bdbdbd;
 }
 header .navbar-default li.connect-links{
   float: right;
@@ -430,7 +430,7 @@ color:#8666ff;
 Hero
 ----------------------------------------*/
 .section-hero{
-    height: 800px;
+    height: 700px;
     padding-top: 80px;
     position: relative;
     /* padding-bottom: 80px; */
@@ -484,7 +484,7 @@ Hero
  position: relative;
  float: left;
  max-width: 100%;
- padding-top: 20px;
+ /*padding-top: 20px;*/
  /*right: -250px;*/
 }
  
@@ -640,7 +640,11 @@ Blocks
   width: auto;
 }
 
-  
+#hero-image {
+  max-width: 90%;
+  margin-top: 100px;
+}
+ 
 
 .feature-img {
   height: 60px !important;
