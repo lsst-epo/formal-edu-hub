@@ -46,9 +46,7 @@ h2{
 h3 {
   color: #272727;
   font-weight: 500;
-  font-size: 29px;
-  padding-top: 20px;
-  margin-bottom: 20px;
+  font-size: 25px;
 }
 h4{
   font-size: 20px;
@@ -62,10 +60,16 @@ h6{
 a{
   text-decoration: none;
   transition: all 0.4s ease;
+  outline: 0 none;
 }
 a:hover {
   color: #9caeca;
   text-decoration: none;
+}
+a:focus {
+  outline: 0 none;
+  text-decoration: none;
+  color: #9caeca;
 }
 ul, ol{
   margin: 0;
@@ -299,7 +303,7 @@ Navigation
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active:hover>a{
   background-color: transparent;
-  color: #eee;
+  color: #bdbdbd;
 }
 .navbar-default .navbar-collapse .navbar-nav > li:first-child{
   margin-left: 0;
@@ -311,7 +315,7 @@ Navigation
   color: white;
 }
 .navbar-default .navbar-nav>li>a.active-link {
-  color: #fff;
+  color: #bdbdbd;
 }
 header .navbar-default li.connect-links{
   float: right;
@@ -430,7 +434,7 @@ color:#8666ff;
 Hero
 ----------------------------------------*/
 .section-hero{
-    height: 800px;
+    height: 680px;
     padding-top: 80px;
     position: relative;
     /* padding-bottom: 80px; */
@@ -484,7 +488,7 @@ Hero
  position: relative;
  float: left;
  max-width: 100%;
- padding-top: 20px;
+ /*padding-top: 20px;*/
  /*right: -250px;*/
 }
  
@@ -640,7 +644,11 @@ Blocks
   width: auto;
 }
 
-  
+#hero-image {
+  max-width: 90%;
+  margin-top: 100px;
+}
+ 
 
 .feature-img {
   height: 60px !important;
@@ -885,7 +893,7 @@ Modal
 .connect-modal .modal-dialog{
   position: relative;
   float: left;
-  width: 460px;
+  /*width: 460px;*/
   z-index: 1;
   left: 50%;
   margin-left: -230px;
