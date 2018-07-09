@@ -60,10 +60,16 @@ h6{
 a{
   text-decoration: none;
   transition: all 0.4s ease;
+  outline: 0 none;
 }
 a:hover {
   color: #9caeca;
   text-decoration: none;
+}
+a:focus {
+  outline: 0 none;
+  text-decoration: none;
+  color: #9caeca;
 }
 ul, ol{
   margin: 0;
@@ -887,7 +893,7 @@ Modal
 .connect-modal .modal-dialog{
   position: relative;
   float: left;
-  width: 460px;
+  /*width: 460px;*/
   z-index: 1;
   left: 50%;
   margin-left: -230px;
