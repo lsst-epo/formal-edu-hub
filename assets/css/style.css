@@ -101,6 +101,11 @@ td, th {
   padding: 17px;
   border: 1px solid #d8d8d8;
 }
+
+p {
+  color: #9B9B9B;
+  font-size: 17px;
+}
 .row-centered{
   text-align: center;
 }
