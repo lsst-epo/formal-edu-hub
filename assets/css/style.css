@@ -20,7 +20,7 @@ body {
   font-size: 17px;
   line-height: 26px;
   overflow-x: hidden;
-  color: #9B9B9B;
+  color: #474747;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -704,7 +704,7 @@ Blocks
   font-weight: 300;
   line-height: 1.67;
   margin-bottom: 20px;
-  color: #9B9B9B;
+  color: #474747;
 }
 
 .feature-block a i{
