@@ -667,7 +667,11 @@ Blocks
  border-radius: 5px;
  background-color: white;
  position: relative;
- min-height: 500px
+ 
+}
+
+.h-500 {
+  min-height: 500px
 }
 
 .feature-block.video {
