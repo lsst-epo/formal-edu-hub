@@ -481,6 +481,23 @@ Hero
   height:75px;
 } 
 
+.play-small {
+  position: relative;
+  top: 10px;
+  left: 22px;
+  height: 50px;
+}
+
+.video-container {
+  display: inline-block;
+  width: 170px;
+}
+
+.video-container p {
+  position: relative;
+  top: 18px;
+}
+
 .section-hero-inner .container{
   height: 100%;
 }
@@ -530,6 +547,8 @@ Hero
 /*----------------------------------------
 About
 ----------------------------------------*/
+
+
 
 #about{
       padding: 80px 0;  
