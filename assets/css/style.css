@@ -117,6 +117,10 @@ b {
   font-weight: 500;
 }
 
+br {
+
+}
+
 
 .row-centered{
   text-align: center;
@@ -464,7 +468,7 @@ color:#8666ff;
 Hero
 ----------------------------------------*/
 .section-hero{
-    height: 680px;
+    height: 650px;
     padding-top: 80px;
     position: relative;
     /* padding-bottom: 80px; */
@@ -500,8 +504,8 @@ Hero
   color: #fff;
   font-size: 18px;
   line-height: 24px;
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  /*margin-bottom: 30px;*/
 }
 
 .arrow-down-btn a{
@@ -663,6 +667,7 @@ Blocks
  border-radius: 5px;
  background-color: white;
  position: relative;
+ min-height: 500px
 }
 
 .feature-block.video {
