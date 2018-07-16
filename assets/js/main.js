@@ -1,5 +1,3 @@
-// Tab functionality on NGSS page.
-
 (function($) {
   "use strict";
 
