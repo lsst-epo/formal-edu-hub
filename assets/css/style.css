@@ -947,7 +947,7 @@ Modal
 ----------------------------------------*/
 
 .nb-modal {
-  width: 900px;
+  /*width: 900px;*/
   margin-left: auto;
   float: inherit;
   left: 0px;
